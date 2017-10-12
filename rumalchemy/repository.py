@@ -7,7 +7,7 @@ from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.orm.properties import ColumnProperty
 from rumalchemy import sqlsoup
 from zope.sqlalchemy import datamanager
-from sqlalchemy.exceptions import DataError
+from sqlalchemy.exc import DataError
 from rum import Repository, RepositoryFactory, exceptions, repository, util,\
                 transaction
 from rum.genericfunctions import when

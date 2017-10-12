@@ -352,7 +352,7 @@ Boring tests here.  Nothing of real expository value.
 from sqlalchemy import *
 from sqlalchemy import schema, sql
 from sqlalchemy.orm import *
-from sqlalchemy.exceptions import *
+from sqlalchemy.exc import *
 from sqlalchemy.sql import expression
 from sqlalchemy.types import Binary
 from rumalchemy.util import primary_key_property_names

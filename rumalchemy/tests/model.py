@@ -3,7 +3,7 @@ from sqlalchemy.types import *
 from sqlalchemy.orm import relation, backref, class_mapper, object_session,\
                             synonym
 from sqlalchemy.orm import mapper
-from sqlalchemy.exceptions import InvalidRequestError, SQLError
+from sqlalchemy.exc import InvalidRequestError, SQLError
 
 metadata = MetaData()
 
